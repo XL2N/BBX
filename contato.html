@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BBX | Contato</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body data-page="contato">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegacao principal">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">BB</span><span class="brand-name">BBX</span></a>
+        <nav class="sidebar-nav">
+          <a class="nav-link" data-page="planos" href="index.html">Planos</a>
+          <a class="nav-link" data-page="gerenciamento" href="gerenciamento.html">Gerenciamento</a>
+          <a class="nav-link" data-page="sobre" href="sobre.html">Sobre Nós</a>
+          <a class="nav-link" data-page="perfil" href="perfil.html">Perfil</a>
+          <a class="nav-link" data-page="contato" href="contato.html">Contato</a>
+        </nav>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <button class="icon-button mobile-toggle" type="button" data-menu-toggle aria-label="Abrir navegacao" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+          <div class="welcome"><span>Olá Fulano!</span><h1>Contato</h1></div>
+          <div class="top-actions">
+            <button class="avatar" type="button" aria-label="Abrir perfil"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80" alt=""></button>
+            <button class="icon-button" type="button" aria-label="Notificacoes"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></button>
+          </div>
+        </header>
+
+        <section class="content-panel" aria-labelledby="contato-title">
+          <h2 class="section-title" id="contato-title">Fale com a BBX</h2>
+          <p class="lead">Envie uma mensagem para revisar seu plano, solicitar suporte ou agendar uma conversa com a equipe de implantação.</p>
+
+          <div class="contact-grid">
+            <article class="contact-card"><span>E-mail</span><p>contato@bbx.com.br</p></article>
+            <article class="contact-card"><span>Telefone</span><p>(11) 3000-0000</p></article>
+            <article class="contact-card"><span>Atendimento</span><p>Segunda a sexta, das 9h às 18h</p></article>
+          </div>
+
+          <form class="form-grid">
+            <div class="field"><label for="nome">Nome</label><input id="nome" name="nome" type="text" value="Fulano Silva"></div>
+            <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" value="fulano@empresa.com"></div>
+            <div class="field full"><label for="assunto">Assunto</label><input id="assunto" name="assunto" type="text" value="Quero personalizar meu plano"></div>
+            <div class="field full"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem">Gostaria de conversar sobre as opções de automação e BI para minha empresa.</textarea></div>
+          </form>
+          <div class="page-actions"><button class="btn" type="button">Enviar mensagem</button></div>
+        </section>
+      </main>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
