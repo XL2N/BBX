@@ -2,6 +2,13 @@
 
 Projeto web estatico baseado no wireframe da plataforma BBX.
 
+## Organizacao
+
+- `css/`: estilos do projeto
+- `js/`: scripts de interacao
+- `image/`: imagens, logo e fav icon
+- `templates/`: paginas HTML secundarias
+
 ## Paginas
 
 - Planos
